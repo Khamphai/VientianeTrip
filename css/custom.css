@@ -1,0 +1,46 @@
+/*set font on website*/
+@font-face{
+            font-family:Myfont;
+            src:url(./../fonts/Phetsarath_OT.ttf);
+          }
+body{
+      padding-top: 70px;
+      font-family:Myfont;
+    }
+
+
+/*set style in the detail of post*/
+.task{
+  background: #fcfcfc;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+  border-left: 3px solid #eee;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.task.important{
+  border-left: 3px solid #26A69A;
+}
+.task.important2{
+  border-left: 3px solid #26A69A;
+  border-right: 3px solid #26A69A;
+}
+
+/*set footer on last website*/
+.footer {
+  height: 100px;
+  background-color: #263238;
+}
+
+
+
+/*When stay at page set active*/
+.active {
+    background-color: #E0F2F1;
+    color: #00695C;
+}
+.active2 {
+    background-color: #26A69A;
+    color: #FFFF;
+}
